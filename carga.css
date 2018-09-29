@@ -1,0 +1,383 @@
+body{
+    background: #F1F1F1;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+}
+div#warning-cookies{
+    width: 100%;
+    position: relative;
+    background: #182F4C;
+}
+div#warning-cookies .warning-text{
+    margin: 0px;
+    color: #f7f7f7;
+    font-size: 12px;
+    position: relative;
+    padding: 5px;
+}
+div#warning-cookies p.close-warm{
+    position: absolute;
+    top: -10px;
+    right: 10px;
+    font-size: 10px;
+    color: #f7f7f7;
+    padding: 0px 0px 20px 20px ;
+    cursor: pointer;
+}
+header, section{
+    width: 95%; 
+    /*background: red;*/
+    margin: 2%;
+    position: relative;
+}
+header #contenido-video, header #info-video, #texto-video, aside{
+    width: 95%;
+    margin: 2.5%;
+    /*background: orange;*/
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+}
+#contenido-video .comparte-video{
+    position: relative;
+    width: 100%;
+    margin: 10px 0px;
+    background: white;
+    height: 150px; 
+}
+.comparte-video .share_fb, .comparte-video .share_tw{
+  display: inline-block;
+	height: 50px;
+	margin: 10px 0px;
+	overflow: hidden;
+	position: relative;
+	vertical-align: top;
+	width: 100%;
+}
+.comparte-video .share_fb:before, .comparte-video .share_tw:before{
+  color: #f7f7f7;
+	font-family: 'icomoon';
+	font-size: 2.2em;
+	left: 10px;
+	position: absolute;
+	top: 7px;
+	z-index: 999;
+}
+.comparte-video .share_tw:before{
+	content: "\eadf";
+}
+.comparte-video .share_fb:before{
+	content: "\ed28";
+}
+.comparte-video .share_fb a,
+.comparte-video .share_tw a{
+	color: #f7f7f7 !important;
+	height: 100%;
+	left: -20px;
+	line-height: 50px;
+	padding-right: 20px;
+	position: absolute;
+	text-align: right;
+	text-decoration: none;
+	width: 100%;
+}
+.comparte-video .share_fb a{
+	background: #4862A3 none repeat scroll 0% 0%;
+}
+.comparte-video .share_tw a{
+	background: #26C1F3 none repeat scroll 0% 0%;
+}
+#contenido-video  iframe{
+    width: 100%;
+    margin: 20px 0px;
+    height: 200px;
+
+}
+#info-video div, aside div, .subc{
+    width: 100%;
+    position: relative;
+    background: #4887DA;
+    text-align: center;
+}
+#info-video div a, aside div a, .subc a{
+    color: #f7f7f7;
+    text-decoration: none;
+    line-height: 50px;
+    font-size: 1.2em;
+    width: 100%;
+    position: relative;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    display: block;   
+}
+.upload{
+    background: #FFBF00 !important;
+    margin: 20px 0px 0px 0px;
+}
+.subc{
+    background: #CC181E !important;
+}
+.upload a, subc a{
+    font-weight: bolder;
+    display: block;
+}
+.subc a{
+    color: #f7f7f7 !important;
+}
+#info-video h1{
+    position: relative;
+    width: 95%;
+    margin: 20px 2.5%;
+    
+}
+#info-video div.prev, #info-video div.sig{
+    width: 100%;
+    height: 50px;
+    display: inline-block;
+    margin: 10px 0px;
+    vertical-align:  top;
+}
+
+#info-video p{
+    font-size: 1.2em;
+    margin: 15px 0px;
+    display: block;
+    position: relative;
+    color: #182F4C;
+    width: 100px;
+    left: 50%;
+    margin-left: -30px;
+}
+#info-video p:before{
+    font-family: 'icomoon';
+    font-size: 1.3em;
+    position: absolute;
+    top: -2px;
+    left: -30px;
+}
+#info-video p.videos_total:before{
+	content: "\fa04";
+}
+#info-video p.time_total:before{
+	content: "\fb77";
+}
+#info-video p.size_total:before{
+	content: "\e911";
+}
+#texto-video .subc{
+    width: 100%;
+    position: relative;
+}
+#texto-video h2{
+    width: 85%;
+    margin: 40px 7% -30px 5%;
+    color: black;
+    font-size: 1.8em;
+    font-weight: bolder;
+}
+#texto-video p{
+    width: 85%;
+    margin: 50px 7.5%;
+    color: #182F4C;
+    font-size: 1.4em;
+    line-height: 1.7em;
+}
+#texto-video a{
+    color: black;
+}
+#texto-video figure{
+    width: 75%;
+    margin: 0px;
+    margin-left: 12.5%;
+}
+#texto-video figure img{
+    width: 100%;
+}
+#texto-video form{
+    width: 90%;
+    margin: 5%;
+    background: /*#FFBF00*/#182F4C;
+    text-align: center;
+    position: relative;
+    padding: 10px 0px;
+}
+form span{
+    font-size: 1em;
+    color: #fff;
+    position: relative;
+    display: block;
+    margin: 10px 30px;
+}
+form input{
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 20px;
+    cursor: pointer;
+}
+form #email{
+    width: 95%;
+    margin-left: 1%;
+    font-size: 1.2em;
+}
+form #button{
+    background: /*#182F4C*/#FFBF00; 
+    color: #f7f7f7;
+    padding: 15px 0px;
+    width: 95%;
+    margin-left: 1%;
+    font-size: 1.3em;
+    border: none;
+}
+aside ul{
+   margin: 0px;
+   padding:  0px;
+    list-style: none;
+}
+aside ul li{
+    width: 100%;
+    margin: 5px 0px;
+    border-bottom: 2px solid #182F4C;
+    position: relative;
+    transition-duration: 0.2;
+}
+aside ul li a:hover{
+    background: #182F4C;
+    color: #f7f7f7;
+}
+aside ul li a{
+    position: relative;
+	width: 100%;
+	color: #182F4C;
+	text-decoration: none;
+	height: 100%;
+	line-height: 30px;
+	display: block;
+}
+footer{
+    background: black;
+    position: relative;
+    padding-bottom: 30px; 
+}
+
+footer div{
+    display: inline-block;
+    vertical-align: middle;
+    width: 100%;
+}
+
+footer div.spiderft {
+    display: inline-block;
+    position: relative;
+    padding-bottom: 30px;
+}
+   footer div.spiderft a{
+    position: relative;
+       
+       color: #f7f7f7;
+       text-decoration: none;
+    }
+footer div.spiderft a figure{
+    /*margin: 20px 0px;
+    width: 80%;
+    margin: 10%;
+    max-width: 300px;*/
+    width: 280px;
+    position: relative;
+    left: 50%;
+    margin-left: -140px;
+} 
+footer div.spiderft a figure img{
+    width: 100%;
+    margin: 0px;
+}
+    footer div.socialmedia{
+      
+        text-align: center;
+    }
+footer div.spiderft figcaption{
+    text-align: center;
+}
+footer div.socialmedia a{
+    width: 100px;
+    display: inline-block;
+    margin: 0px;
+    text-decoration: none;
+    font-size: 60px;
+}
+footer div.socialmedia a:before{
+    font-family: 'icomoon';
+    color: #f7f7f7;
+}
+footer div.socialmedia a#youtube:before{
+    content: "\f76b"
+}
+footer div.socialmedia a#twitter:before{
+    content: "\eadf"
+}
+footer div.socialmedia a#facebook:before{
+    content: "\eccd"
+}
+@media screen and (min-width: 360px){
+	#contenido-video iframe{
+		height: 250px;
+	}
+@media screen and (min-width: 480px){
+  .comparte-video .share_fb, .comparte-video .share_tw{
+        width: 45%;
+    }
+    .comparte-video .share_fb{
+        margin: 10px 4% 10px 0px;
+    }
+    .comparte-video .share_tw{
+        margin: 10px 0px 10px 4%;
+    }
+    #contenido-video iframe{
+        height: 300px;
+    }
+    #info-video div.prev, #info-video div.sig{
+        width: 44%;
+        margin: 10px 2.4%;
+        display: inline-block;
+        vertical-align: top;
+    }
+    #texto-video p{
+        text-align: justify;
+    }
+}
+
+@media screen and (min-width: 767px){
+  
+    header #contenido-video, #texto-video{
+        width: 64%;
+    }
+    #contenido-video iframe{
+        height: 350px;
+    }
+    header #info-video, aside{
+        width: 28%;
+        margin: 2.5% 0px 2.5% 1%; 
+    }
+    header #info-video{
+        margin-top: 100px;
+    }
+    footer div.spiderft{
+        width: 60%;
+    }
+     footer div.spiderft a figure{
+        margin-left: 0px;
+         left: 10%;
+    }
+    footer div.socialmedia{
+        width: 38%;
+    }
+}
+
+@media screen and (min-width: 950px){
+    header #info-video{
+        margin-top: 150px;
+    }
+    #contenido-video iframe{
+        height: 450px;
+    }
+}

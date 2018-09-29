@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="css/normalize.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link rel="stylesheet" href="css/icomoon.css">
+    <script src="js/modernizr-custom.js"></script>
+    <link rel="stylesheet" href="carga.css">
+<head>
+</head>
+<body>
+         <div id="warning-cookies">
+           <p class="warning-text">Utilizamos cookies de terceros para generar estadísticas de audiencia y mostrar publicidad personalizada analizando tu navegación. Si sigues navegando estarás aceptando su uso. </p>
+           <p class="close-warm" onClick= "CloseWarnCookies()">x</p>
+       </div> 
+       <header>
+       <div id="contenido-video">
+           <div class="comparte-video">
+               
+           </div>
+          <iframe src="https://www.youtube.com/embed/BN0MexoJokw" frameboard="0" allowfullscreen></iframe>
+       </div>
+       <div id="info-video">
+          <div class="ver-todo"><a href=""> Ver todos los videos aracnidos</a></div>
+           <h1></h1>
+        <div  class="prev">   <a href="">Anterior</a></div>
+        <div class="sig">   <a href="">Siguiente</a></div>
+          <p class='videos_total'>11 videos</p>
+          <p class='time_total'>88 minutos</p>
+        <div  class="upload">   <a href="">Carga la fotografia del aracnido </a></div>
+       </div>
+  </header>
+    <section>
+        <div id="texto-video">
+          <div class="subc"> <a href="">Suscríbete</a></div> 
+            <div id="conte-texto">
+                <p></p>
+                <figure>
+                    <img src="" alt="">
+                </figure>
+                <p></p>
+            </div>
+           <form id='form' name='form' method='post' action='suscribe.php'>
+
+                <span>Enterate de las nuevas especies aracnidas agregadas</span>
+                <span>¡No te arrepentiras!</span>
+
+                <input id='email' name='email' type='text' placeholder='Introduce tu email' onfocus='if(this.placeholder =='')this.placeholder ='Introduce tu email'' />
+
+                <input type='submit' name='Submit' id='button' value='Suscríbete GRATIS' />
+
+            </form>
+        
+           <div class="comparte-video">
+               <div class="share_fb">
+                   <a href="">Compartir</a>
+               </div>
+               
+               <div class="share_tw">
+                   <a href="">Tweet</a>
+               </div>
+           </div>
+        </div>
+        
+        <aside>
+         <ul>
+                <li><a href=''>01 - Introduccion a los aracnidos: Arañas</a></li>                
+                <li><a href=''>02 - Dónde viven las arañas</a></li>                
+                <li><a href=''>03 - Regiones importantes de arañas venenosas</a></li>                
+                <li><a href=''>04 - Las araañas y sus presas</a></li>                
+                <li><a href=''>05 - Diferentes especies de arañas</a></li>                
+                <li><a href=''>06 - Arañas menos venenosas del mundo</a></li>                
+                <li><a href=''>07 - Arañas más venenosas del mundo</a></li>         
+                <li><a href=''>08 - Usos del veneno de las arañas</a></li>                
+                <li><a href=''>09 - Como tratar queladuras</a></li> 
+                <li><a href=''>10 - Caracteristicas de los aracnidos: arañas </a></li>     <li><a href=''>11 - Como identificar tu aracnido</a></li>
+            </ul>
+ 
+        </aside>
+           </section>
+    
+    <footer>
+        
+        <div class="spiderft">
+        <a href="">
+            <figure>
+                <img src="img/Aracnidos1.jpg" alt="">
+                <figcaption>
+                    Ver más videos de aracnidos en linea
+                </figcaption>
+            </figure>
+            
+        </a>
+        
+        </div>
+        
+        <div class="socialmedia">
+        <a id="youtube" href=""></a>
+        <a id="twitter" href=""></a>
+        <a id="facebook" href=""></a>
+        </div>
+    </footer>
+    <!--<div id='menu_language'>
+        <p onclick=displayFormLanguages('block')>Select Your Language</p>-->
+        
+    <script>
+        function CloseWarnCookies(){
+            var element =  document.getElementById("warning-cookies");
+            element.style.display = "none";
+        }
+    </script>
+</body>
+</html>
+
+
